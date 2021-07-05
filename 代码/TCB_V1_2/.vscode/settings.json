@@ -1,0 +1,15 @@
+{
+    "files.associations": {
+        "freertostask.h": "c",
+        "gpio.h": "c",
+        "main.h": "c",
+        "stm32h7xx_hal.h": "c",
+        "stm32h7xx_hal_conf.h": "c",
+        "datacollection.h": "c",
+        "cmsis_os.h": "c",
+        "aht15_iic.h": "c",
+        "lockcontrol.h": "c",
+        "tempercollection.h": "c",
+        "uartapp.h": "c"
+    }
+}

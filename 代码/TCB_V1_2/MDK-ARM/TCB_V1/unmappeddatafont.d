@@ -1,0 +1,12 @@
+.\tcb_v1\unmappeddatafont.o: ../touchgfx/generated/fonts/src/unmappeddatafont.cpp
+.\tcb_v1\unmappeddatafont.o: ../touchgfx/generated/fonts/include/fonts/UnmappedDataFont.hpp
+.\tcb_v1\unmappeddatafont.o: ../middlewares/st/touchgfx/framework/include/touchgfx/Font.hpp
+.\tcb_v1\unmappeddatafont.o: ../middlewares/st/touchgfx/framework/include/touchgfx/Unicode.hpp
+.\tcb_v1\unmappeddatafont.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\tcb_v1\unmappeddatafont.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/Types.hpp
+.\tcb_v1\unmappeddatafont.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h
+.\tcb_v1\unmappeddatafont.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\tcb_v1\unmappeddatafont.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/Config.hpp
+.\tcb_v1\unmappeddatafont.o: ../touchgfx/generated/fonts/include/fonts/ApplicationFontProvider.hpp
+.\tcb_v1\unmappeddatafont.o: ../middlewares/st/touchgfx/framework/include/touchgfx/FontManager.hpp
+.\tcb_v1\unmappeddatafont.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/FlashDataReader.hpp

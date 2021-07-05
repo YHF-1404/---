@@ -1,0 +1,9 @@
+.\tcb_v1\bitmapdatabase.o: ../touchgfx/generated/images/src/bitmapdatabase.cpp
+.\tcb_v1\bitmapdatabase.o: ../touchgfx/generated/images/include/BitmapDatabase.hpp
+.\tcb_v1\bitmapdatabase.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/Types.hpp
+.\tcb_v1\bitmapdatabase.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h
+.\tcb_v1\bitmapdatabase.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\tcb_v1\bitmapdatabase.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/Config.hpp
+.\tcb_v1\bitmapdatabase.o: ../middlewares/st/touchgfx/framework/include/touchgfx/Bitmap.hpp
+.\tcb_v1\bitmapdatabase.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\cassert
+.\tcb_v1\bitmapdatabase.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h

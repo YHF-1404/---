@@ -1,0 +1,12 @@
+.\tcb_v1\cjson.o: ..\Component\JSON\cJSON.c
+.\tcb_v1\cjson.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\tcb_v1\cjson.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\tcb_v1\cjson.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\tcb_v1\cjson.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\tcb_v1\cjson.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+.\tcb_v1\cjson.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\ctype.h
+.\tcb_v1\cjson.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\float.h
+.\tcb_v1\cjson.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h
+.\tcb_v1\cjson.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\tcb_v1\cjson.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\tcb_v1\cjson.o: ..\Component\JSON\cJSON.h
