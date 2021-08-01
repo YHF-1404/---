@@ -132,7 +132,7 @@ void StartUartTask(void *argument)
 }
 
 /**
-  * @brief  串口3交互任务
+  * @brief  串口3交互任务 波特率 ：115200
   * @param  argument: none
   * @retval none
 **/
@@ -159,7 +159,7 @@ void StartUart3Task(void *argument)
 				son = cJSON_GetObjectItem(root,"params");
 				if(son)
 				{
-					//解析云端下发的命令 具体格式参考aliyun物联网平台cSDK开发指南
+					//解析云端下发的命令 具体格式参考aliyun物联网平台cSDK开发指南 
 					fmt = cJSON_GetObjectItem(son,"set_temper");
 					if(fmt)
 					{
@@ -192,7 +192,7 @@ void StartUart3Task(void *argument)
 					osMessageQueuePut(dataHandle, &datax, NULL, osWaitForever);
 				}
 
-				cJSON_Delete(root);
+				cJSON_Delete(root);		//防止内存泄露
 				root = NULL;
 				fmt = NULL;
 			}
@@ -255,8 +255,8 @@ void StartDataTask(void *argument)
 			Uart1TxData((uint8_t *)string,strlen(string));
 			Uart3TxData((uint8_t *)string,strlen(string));
 
-			cJSON_Delete(headx);
-			cJSON_free(string);
+			cJSON_Delete(headx);	
+			cJSON_free(string);	//防止内存泄露
 			osDelay(1000);
 		}
 
